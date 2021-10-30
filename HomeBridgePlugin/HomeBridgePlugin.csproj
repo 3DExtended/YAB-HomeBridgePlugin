@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\framework\yetanotherbot\src\libraries\YAB.Core\YAB.Core.csproj" />
+    <ProjectReference Include="..\framework\yetanotherbot\src\libraries\YAB.Plugins.Injectables\YAB.Plugins.Injectables.csproj" />
+    <ProjectReference Include="..\framework\yetanotherbot\src\libraries\YAB.Plugins\YAB.Plugins.csproj" />
+    <ProjectReference Include="..\framework\yetanotherbot\src\libraries\YAB.Services.Common\YAB.Services.Common.csproj" />
+  </ItemGroup>
+
+</Project>
