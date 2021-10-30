@@ -30,14 +30,14 @@ steps:
   displayName: Build Project
   inputs:
     command: 'build'
-    projects: './UtilsPlugin/UtilsPlugin.csproj'
+    projects: './HomeBridgePlugin/HomeBridgePlugin.csproj'
 
 - task: DotNetCoreCLI@2
   displayName: Publish project
   inputs:
     command: 'publish'
     publishWebProjects: false
-    projects: './UtilsPlugin/UtilsPlugin.csproj'
+    projects: './HomeBridgePlugin/HomeBridgePlugin.csproj'
     arguments: '-o $(Build.BinariesDirectory)'
   
 
@@ -57,7 +57,7 @@ steps:
 - task: GitHubRelease@1
   inputs:
     gitHubConnection: 'github.com_3DExtended'
-    repositoryName: '3DExtended/YAB-UtilsPlugin'
+    repositoryName: '3DExtended/YAB-HomeBridgePlugin'
     action: 'create'
     target: '$(Build.SourceVersion)'
     tagSource: 'userSpecifiedTag'
