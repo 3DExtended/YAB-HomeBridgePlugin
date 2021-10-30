@@ -4,3 +4,5 @@
 /.idea
 /HomeBridgePlugin/obj
 /HomeBridgeCommunication/obj
+/HomeBridgeCommunication.Tests
+/packages
