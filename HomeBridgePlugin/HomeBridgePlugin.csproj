@@ -9,6 +9,7 @@
     <ProjectReference Include="..\framework\yetanotherbot\src\libraries\YAB.Plugins.Injectables\YAB.Plugins.Injectables.csproj" />
     <ProjectReference Include="..\framework\yetanotherbot\src\libraries\YAB.Plugins\YAB.Plugins.csproj" />
     <ProjectReference Include="..\framework\yetanotherbot\src\libraries\YAB.Services.Common\YAB.Services.Common.csproj" />
+    <ProjectReference Include="..\HomeBridgeCommunication\HomeBridgeCommunication.csproj" />
   </ItemGroup>
 
 </Project>

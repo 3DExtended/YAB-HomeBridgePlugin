@@ -6,3 +6,7 @@
 /HomeBridgeCommunication/obj
 /HomeBridgeCommunication.Tests
 /packages
+/HomeBridgePlugin/bin
+/HomeBridgeCommunication/bin
+/.vs/HomeBridgePlugin/v16/TestStore/0/*.testlog
+/.vs/HomeBridgePlugin/v16/TestStore/0/testlog.manifest

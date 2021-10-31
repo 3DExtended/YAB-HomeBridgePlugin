@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Linq;
 
+using HomeBridgeCommunication;
+
+using HomeBridgePlugin.Options;
+
 using YAB.Core.EventReactor;
 using YAB.Core.Events;
 using YAB.Plugins;
@@ -10,6 +14,8 @@ namespace HomeBridgePlugin
 {
     public class Module : IPluginModule
     {
+        public static YAB.Plugins.Injectables.Lazy<HomeBridgeConnection> HomeBridgeConnection { get; set; }
+
         public void RegisterBackgroundTasks(Action<Type> registerer)
         {
             var types = typeof(Module).Assembly.GetTypes().Where(t => typeof(IBackgroundTask).IsAssignableFrom(t));
@@ -39,6 +45,7 @@ namespace HomeBridgePlugin
 
         public void RegisterPluginOptions(Action<IOptions> registerer)
         {
+            registerer(new HomeBridgeOptions());
         }
     }
 }

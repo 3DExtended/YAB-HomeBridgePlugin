@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBridgePlugin", "HomeBridgePlugin\HomeBridgePlugin.csproj", "{99A5481E-BE29-45BA-B84B-85992BAF4404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBridgePlugin", "HomeBridgePlugin\HomeBridgePlugin.csproj", "{99A5481E-BE29-45BA-B84B-85992BAF4404}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extern", "extern", "{49C57A48-570C-4E88-978C-BE8E1C623067}"
 EndProject
@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAB.Plugins.Injectables", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAB.Services.Common", "framework\yetanotherbot\src\libraries\YAB.Services.Common\YAB.Services.Common.csproj", "{8FA5F0FD-B2E4-4CC5-AB80-3355AA034545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeBridgeCommunication", "HomeBridgeCommunication\HomeBridgeCommunication.csproj", "{838D3CD4-7373-4DEA-8DF5-7062B04E6A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBridgeCommunication", "HomeBridgeCommunication\HomeBridgeCommunication.csproj", "{838D3CD4-7373-4DEA-8DF5-7062B04E6A13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeBridgeCommunication.Tests", "HomeBridgeCommunication.Tests\HomeBridgeCommunication.Tests.csproj", "{7288A143-C11B-4494-A982-4FC9CBBC6BDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YAB.Core.Pipelines", "framework\yetanotherbot\src\libraries\YAB.Core.Pipelines\YAB.Core.Pipelines.csproj", "{7D16B657-997C-425B-B00A-5F6CD1FE3E6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,14 @@ Global
 		{838D3CD4-7373-4DEA-8DF5-7062B04E6A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{838D3CD4-7373-4DEA-8DF5-7062B04E6A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{838D3CD4-7373-4DEA-8DF5-7062B04E6A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7288A143-C11B-4494-A982-4FC9CBBC6BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7288A143-C11B-4494-A982-4FC9CBBC6BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7288A143-C11B-4494-A982-4FC9CBBC6BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7288A143-C11B-4494-A982-4FC9CBBC6BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D16B657-997C-425B-B00A-5F6CD1FE3E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D16B657-997C-425B-B00A-5F6CD1FE3E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D16B657-997C-425B-B00A-5F6CD1FE3E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D16B657-997C-425B-B00A-5F6CD1FE3E6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +68,7 @@ Global
 		{2D08091E-2B71-40D6-9B69-51EAF34DC719} = {49C57A48-570C-4E88-978C-BE8E1C623067}
 		{1FD98483-F652-4F0B-9E37-8E8D94F5EED7} = {49C57A48-570C-4E88-978C-BE8E1C623067}
 		{8FA5F0FD-B2E4-4CC5-AB80-3355AA034545} = {49C57A48-570C-4E88-978C-BE8E1C623067}
+		{7D16B657-997C-425B-B00A-5F6CD1FE3E6E} = {49C57A48-570C-4E88-978C-BE8E1C623067}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16EAF3F0-747B-4452-B05C-9BD2D0AEB27B}
