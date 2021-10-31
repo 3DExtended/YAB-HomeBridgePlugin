@@ -79,7 +79,7 @@ namespace HomeBridgePlugin.BackgroundTasks
                             continue;
                         }
 
-                        if (oldCharacteriticState.Value != newCharacteristicState.Value)
+                        if (oldCharacteriticState.Value.ToString() != newCharacteristicState.Value.ToString())
                         {
                             eventsToSend.Add(new HomeBridgeAccessoryValueChangedEvent
                             {
