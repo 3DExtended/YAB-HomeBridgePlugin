@@ -36,7 +36,11 @@ namespace HomeBridgePlugin.BackgroundTasks
         public Task InitializeAsync(CancellationToken cancellation)
         {
             Module.HomeBridgeConnection = new YAB.Plugins.Injectables.Lazy<HomeBridgeCommunication.HomeBridgeConnection>(()
-                => new HomeBridgeCommunication.HomeBridgeConnection(_options.HomeBridgeHostUrl, _options.HomeBridgeHostPort, _options.HomeBridgeUserName, _options.HomeBridgePassword));
+                => new HomeBridgeCommunication.HomeBridgeConnection(
+                    _options.HomeBridgeHostUrl,
+                    _options.HomeBridgeHostPort,
+                    _options.HomeBridgeUserName,
+                    _options.HomeBridgePassword));
             return Task.CompletedTask;
         }
 
