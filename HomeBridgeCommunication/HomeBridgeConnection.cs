@@ -42,7 +42,7 @@ namespace HomeBridgeCommunication
             return castedResponse;
         }
 
-        public async Task<bool> SetCharacteristicOnAccessoryByAccessoryUniqueIdAndCharacteristicType(string accessoryUniqueId, string characteristicType, string newValue, CancellationToken cancellationToken)
+        public async Task<bool> SetCharacteristicOnAccessoryByAccessoryUniqueIdAndCharacteristicTypeAsync(string accessoryUniqueId, string characteristicType, string newValue, CancellationToken cancellationToken)
         {
             var response = await PutRequestAsync("api/accessories/" + accessoryUniqueId, $"{{\"characteristicType\": \"{characteristicType}\", \"value\": \"{newValue}\"}}", cancellationToken: cancellationToken).ConfigureAwait(false);
             return response.StatusCode == System.Net.HttpStatusCode.OK;
