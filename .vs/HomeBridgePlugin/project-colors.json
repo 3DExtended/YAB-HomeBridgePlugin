@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99a5481e-be29-45ba-b84b-85992baf4404": {
+      "ProjectGuid": "99a5481e-be29-45ba-b84b-85992baf4404",
+      "DisplayName": "HomeBridgePlugin",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
