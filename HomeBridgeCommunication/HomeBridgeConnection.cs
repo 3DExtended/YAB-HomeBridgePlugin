@@ -63,7 +63,6 @@ namespace HomeBridgeCommunication
                 response = await MakeRequest().ConfigureAwait(false);
             }
 
-            Console.WriteLine(response.Content);
             return response;
 
             async Task<IRestResponse> MakeRequest()
@@ -108,7 +107,6 @@ namespace HomeBridgeCommunication
                 response = await MakeRequest().ConfigureAwait(false);
             }
 
-            Console.WriteLine(response.Content);
             return response;
 
             async Task<IRestResponse> MakeRequest()
@@ -143,7 +141,6 @@ namespace HomeBridgeCommunication
                 response = await MakeRequest().ConfigureAwait(false);
             }
 
-            Console.WriteLine(response.Content);
             return response;
 
             async Task<IRestResponse> MakeRequest()
