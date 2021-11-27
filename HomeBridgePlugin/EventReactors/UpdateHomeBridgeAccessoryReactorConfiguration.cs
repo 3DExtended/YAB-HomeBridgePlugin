@@ -1,4 +1,5 @@
-﻿using YAB.Core.EventReactor;
+﻿using YAB.Core.Annotations;
+using YAB.Core.EventReactor;
 using YAB.Core.Events;
 using YAB.Plugins.Injectables.Options;
 

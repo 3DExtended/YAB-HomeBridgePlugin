@@ -10,7 +10,12 @@
       "ProjectGuid": "838d3cd4-7373-4dea-8df5-7062b04e6a13",
       "DisplayName": "HomeBridgeCommunication",
       "ColorIndex": 1
+    },
+    "1fd98483-f652-4f0b-9e37-8e8d94f5eed7": {
+      "ProjectGuid": "1fd98483-f652-4f0b-9e37-8e8d94f5eed7",
+      "DisplayName": "YAB.Plugins.Injectables",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
