@@ -5,7 +5,12 @@
       "ProjectGuid": "99a5481e-be29-45ba-b84b-85992baf4404",
       "DisplayName": "HomeBridgePlugin",
       "ColorIndex": 0
+    },
+    "838d3cd4-7373-4dea-8df5-7062b04e6a13": {
+      "ProjectGuid": "838d3cd4-7373-4dea-8df5-7062b04e6a13",
+      "DisplayName": "HomeBridgeCommunication",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

@@ -4,7 +4,7 @@ using YAB.Plugins.Injectables.Options;
 
 namespace HomeBridgePlugin.EventReactors
 {
-    [ReactorConfigurationDescription("Updates an accessory characteristic. Use this to turn accessories on or off, or change target values.")]
+    [ClassDescription("Updates an accessory characteristic. Use this to turn accessories on or off, or change target values.")]
     public class UpdateHomeBridgeAccessoryReactorConfiguration : IEventReactorConfiguration<UpdateHomeBridgeAccessoryReactor, EventBase>
     {
         [PropertyDescription(false, "The accessory will be updated after this amount of seconds")]
